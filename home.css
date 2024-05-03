@@ -1,17 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
+    text-align: center;
     color: #333;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 li {
+    margin-bottom: 40px;
+}
+
+.vehicle {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.vehicle:hover {
+    transform: translateY(-5px);
+}
+
+.vehicle img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vehicle h3 {
+    color: #333;
+    font-size: 20px;
     margin-bottom: 10px;
+}
+
+.vehicle p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Estilos para los tipos de vehículos específicos */
+.motorcycle {
+    border: 2px solid #ff5733;
+}
+
+.car {
+    border: 2px solid #33ff57;
+}
+
+.dealer-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dealer-info p {
+    color: #666;
+    font-size: 18px;
 }
