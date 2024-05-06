@@ -2,6 +2,7 @@
 
  
  Sistema de Gestión Este proyecto es un sistema de gestión diseñado para talleres de motos. Ayuda a administrar clientes, órdenes de trabajo, inventario y mano de obra. 
+ creado por juan david
 
 ## *Características*
 
