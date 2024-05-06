@@ -17,3 +17,4 @@
   - SQLite 
  - Git
  - windows linux y mac 
+- disponibles para todos los talleres
